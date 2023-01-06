@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="/bmicalculator.js"></script>
+        <link rel="stylesheet" href="/bmicalculator.css">
+    </head>
+    <body>
+        <div class="input-container">
+            <div id="age"> 
+               <span>
+                 Age
+                <input type="text"/>
+                ages:2-100
+            </span>
+            </div>
+            <div id="Gender">
+                <span>
+                    Gender
+                    <input type="radio" value="Male"/>Male
+                    <input type="radio" value ="female"/>Female
+                    
+                </span>
+            </div>
+            <div id="height">
+                Height <input type="text" id="height-data" placeholder="cm"/><br>
+                <span id="height_error"></span>
+
+            </div>
+            <div id="weight">
+                Weight <input type="text" id="weight-data" placeholder="kg"/><br>
+                <span id="weight_error"></span>
+            </div>
+            <div id="buttons">
+               <button onclick="calculate()">Calculate</button>
+                <button onclick="document.getElementById('result').innerHTML=' '">clear</button>
+            </div>
+            <div >
+                <b>Result  :</b>
+                <p id="result"></p>
+            </div>
+        </div>
+    </body>
+</html>

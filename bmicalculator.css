@@ -1,0 +1,40 @@
+body{
+    background-color: cadetblue;
+}
+.input-container{
+    width: 30px;
+    border: 1px solid black;
+    min-width: 300px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    padding: 20px 30px;
+    border-radius: 2%;
+    background-color: rgb(231, 230, 230);
+}
+#age{
+   margin-bottom: 10px;
+}
+#Gender{
+    margin-bottom: 10px;
+}
+#height{
+    margin-bottom: 10px;
+}
+#weight{
+    margin-bottom: 10px;
+}
+#buttons{
+    margin-bottom: 10px;
+    padding-left: 15%;
+}
+button{
+    background-color: chartreuse;
+    border: 1px solid burlywood;
+    border-radius: 2px;
+}
+input{
+    background-color: whitesmoke;
+    border: 1px solid rgb(46, 130, 226);
+    border-radius: 2px;
+}
